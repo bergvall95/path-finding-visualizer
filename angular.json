@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "path-finding-visualizer"
+    }
+  },
+  "defaultProject": "path-finding-visualizer",
+  "cli": {
+    "analytics": "42fb5faf-2425-447e-a6b4-8fc7df8de464"
+  }
 }

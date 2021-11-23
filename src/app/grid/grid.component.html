@@ -1,0 +1,17 @@
+<div class="grid-container">
+    <div class="row" *ngFor="let i of this.map; index as j;">
+        <div class="square" *ngFor="let k of i" [style.background-color]="k.color"
+            (click)="OnClick( k.xIdx, k.yIdx, k.color, k.isVisited, k.isStart, k.isEnd)">
+        </div>
+    </div>
+</div>
+
+<div>
+    <div (click)="SelectStart()" style="cursor: pointer;">
+        select start
+    </div>
+    <div (click)="SelectEnd()" style="cursor: pointer;">
+        select end
+    </div>
+
+</div>
